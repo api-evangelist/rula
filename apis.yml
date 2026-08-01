@@ -1,8 +1,27 @@
 aid: rula
 name: Rula
-description: Rula is a company surfaced as a portfolio company of wing-venture-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rula is a telehealth mental health platform that connects patients with licensed therapists
+  and psychiatric providers who accept their insurance. Operating as an in-network behavioral health
+  marketplace across all 50 states, Rula matches individuals with more than 23,000 licensed clinicians
+  for individual, couples, family, child, and teen therapy as well as psychiatric medication management,
+  covering 90+ conditions including anxiety, depression, ADHD, PTSD, OCD, and addiction. Rula is
+  in-network with 120+ insurance plans nationwide (Aetna, Cigna, Optum, UnitedHealthcare, Blue Cross,
+  Kaiser), with patients paying an average of about $15 per session with insurance. Rula publishes no
+  public developer API, developer portal, or partner API surface as of this profile; care is delivered
+  through its patient and provider web applications.
 url: https://raw.githubusercontent.com/api-evangelist/rula/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a.storyblok.com/f/329013/1200x630/a3d79da28e/rula_og_1200x630.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mental Health
+- Telehealth
+- Healthcare
+- Behavioral Health
+- Therapy
+- Psychiatry
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rula-domain-security.yml
 - type: Website
   url: https://www.rula.com/
+- type: Blog
+  url: https://www.rula.com/blog/
+- type: PrivacyPolicy
+  url: https://www.rula.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.rula.com/terms-of-use/
+- type: SignUp
+  url: https://patient.pathapplication.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
