@@ -10,6 +10,17 @@ description: Rula is a telehealth mental health platform that connects patients 
   public developer API, developer portal, or partner API surface as of this profile; care is delivered
   through its patient and provider web applications.
 url: https://raw.githubusercontent.com/api-evangelist/rula/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
